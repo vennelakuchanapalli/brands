@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEN~Brands</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- this is a total registration div  -->
+    <div id="totalregdiv">
+        <div id="regdiv">
+            <fieldset>
+                <legend>Name</legend>
+                <input id="rname" type="text" />
+            </fieldset><br/>
+            <fieldset>
+                <legend>Emial</legend>
+                <input id="rmail" type="email" />
+            </fieldset><br/>
+            <fieldset>
+                <legend>Password</legend>
+                <input id="rpassword" type="password" />
+            </fieldset><br/>
+            <fieldset>
+                <legend>MobileNo</legend>
+                <input id="rmobile" type="number" />
+            </fieldset><br/>
+            <fieldset>
+                <legend>Date</legend>
+                <input id="rdate" type="date" />
+            </fieldset><br/>
+            <fieldset>
+                <legend>Gender</legend>
+                <input id="rgenderf" type="radio" name="gender" value="Female"/>
+                <label for="rgenderf">Female</label>
+                <input id="rgenderm" type="radio" name="gender" value="Male"/>
+                <label for="rgenderm">Male</label>
+
+            </fieldset><br/>
+            <fieldset>
+                <legend>Age</legend>
+                <input id="rage" type="number" />
+            </fieldset><br/>
+            <fieldset>
+                <legend>MaritalStatus</legend>
+                <input id="rmrg_m" type="radio" name="mrg" value="Married"/>
+                <label for="rmrg_m">Marreid</label>
+                <input id="rmrg_u" type="radio" name="mrg"  value="Unmarreid"/>
+                <label for="rmrg_u">Unmarried</label>
+            </fieldset><br/>  
+            <p id="rpara"></p>         
+            <button onclick="register()">Register</button><br/><br/>
+            <button onclick="goToLogin()">Already registerd <a href="#">Go To LoginPage</a></button>
+        </div>
+    </div>
+    <!-- this div is regarding total login div  -->
+    <div id="totallogindiv" >
+        <div id="logindiv">           
+            <fieldset>
+                <legend>Emial</legend>
+                <input id="lmail" type="email" placeholder="Email"/>
+            </fieldset><br/>
+            <fieldset>
+                <legend>Password</legend>
+                <input id="lpassword" type="password" placeholder="Password"/>
+            </fieldset><br/>   
+            <input id="checkbox" type="checkbox"/> <span>Remember Me</span> 
+            <p id="lpara"></p>         
+      
+            <button onclick="register()">Register</button><br/>
+        </div>
+    </div>
+    <div id="totaldashboarddiv">
+        <div id="dashboard">
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
